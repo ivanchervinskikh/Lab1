@@ -15,8 +15,8 @@ for i in range(499):
 for i in range(499, 998):
     b.append(float(t[i][:-1]))
 
-x = np.array(a)
-y = np.array(b)
+y = np.array(a)
+x = np.array(b)
 
 plt.errorbar(x, y,  xerr = 0, yerr = 0, fmt='.k')
 plt.grid()
