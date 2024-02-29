@@ -27,9 +27,10 @@ int main()
 
     clock_t startTime = clock();
     for (int i = 1000; i < 500000; i+=1000){
+        
         int nums[i] = {}; 
         for (unsigned counter = i; counter != 0; --counter){
-            nums[i - counter] = arr[dstr(rng)] << '\n';
+            nums[i - counter] = arr[dstr(rng)];
         }
         a = nums[dstr(rng)];
         for (int j; j < i; j++){
